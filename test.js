@@ -1,6 +1,6 @@
 const restart = () => {
   this.clearLocalStorage();
-  this.timer = setTimeout(function() {
+  this.timer = setTimeout(() => {
     this.clearLocalStorage();   
   }, 0);
 };
